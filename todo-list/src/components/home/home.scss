@@ -1,0 +1,33 @@
+.home_main{
+
+    .header{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .main_block{
+
+        margin-top: 2rem;
+        padding: 15px;
+  
+        .main_title{
+    
+            font-weight: 400;
+            color: #413b3b;
+            margin-top: 10px;
+            letter-spacing: 1px;
+        }
+
+        .card_block{
+
+            margin-top: 20px;
+
+            @import "../common/TodoCard.scss";
+        }
+
+    }
+
+}
