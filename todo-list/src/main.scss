@@ -1,0 +1,25 @@
+*{
+
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+
+    list-style: none;
+}
+
+.layout_main{
+
+    @import "./components/home/home.scss";
+}
+
+.container{
+
+    max-width: calc(900px - 30px);
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
