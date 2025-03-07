@@ -4,7 +4,7 @@ import deleteIcon from "../../../assets/delete.png";
 import editIcon from "../../../assets/compose.png";
 import closeIcon from "../../../assets/close.png";
 
-const TodoCard = ({formdata,onDeleteCard}) => {
+const TodoCard = ({formdata,onDeleteCard,onEdit,onDisplayModalHide}) => {
   
   const [status, setStatus] = useState(false);
   
@@ -31,7 +31,7 @@ const TodoCard = ({formdata,onDeleteCard}) => {
 
       <ul className="action_wrapper">
         <li><button><img src={deleteIcon} onClick={()=>onDeleteCard(formdata.id)}/></button></li>
-        <li><button><img src={editIcon} /></button></li>
+        <li><button onClick={()=>(onEdit(formdata.id),onDisplayModalHide(true))}><img src={editIcon} /></button></li>
       </ul>
     </div>
   )
