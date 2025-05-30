@@ -1,0 +1,55 @@
+    //  Header styles
+    .header_wrapper{
+
+        
+        background-color: $theme-color-1;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+
+        .banner_area{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        h1.banner_title{
+            font-family: "Merienda", cursive;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+        }
+
+        .search_wrapper{
+            background: #fff;
+            border-radius: 20px;
+            padding: 10px;
+            width: 350px;
+            text-align: center;
+            position: relative;
+
+            .icon{
+
+                position: absolute;
+                display: flex;
+                align-items: center;
+                top: 50%;
+                transform: translateY(-50%); 
+            }
+            
+            input{
+
+                border: 0;
+                outline: none;
+                text-align: center;
+                width: calc(100% - 25px);
+                padding: 0 5px;
+            }
+        }
+        }
+
+    }
+
+    //catgory style
+
+    @import "../Home/CategoryBlock/FoodCategory.scss";

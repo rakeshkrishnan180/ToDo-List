@@ -1,0 +1,23 @@
+.menucard_wrapper{
+
+    background: #fff;
+    box-shadow: 0 0px 6px 6px #bcccd033;
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+
+    img{
+
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .title{
+
+        font-size: 0.697rem;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,15 @@
+.category_list_block{
+
+    .card_top_list_wrapper{
+
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 0 15px;
+        margin-top: -20px;
+        justify-content: center;
+
+        @import "../../../Common/Components/MenuCard/MenuCard.scss";
+    }
+
+}
